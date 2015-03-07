@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Velcraft.Squeezebox", "Velcraft.Squeezebox\Velcraft.Squeezebox.csproj", "{21F823A8-63C6-4009-9CB5-B4B6E5AD06D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Velcraft.Squeezebox.Tests", "Velcraft.Squeezebox.Tests\Velcraft.Squeezebox.Tests.csproj", "{95CC605E-80B3-45EA-93CD-B06AB9B12F0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21F823A8-63C6-4009-9CB5-B4B6E5AD06D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F823A8-63C6-4009-9CB5-B4B6E5AD06D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F823A8-63C6-4009-9CB5-B4B6E5AD06D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F823A8-63C6-4009-9CB5-B4B6E5AD06D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95CC605E-80B3-45EA-93CD-B06AB9B12F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CC605E-80B3-45EA-93CD-B06AB9B12F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CC605E-80B3-45EA-93CD-B06AB9B12F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CC605E-80B3-45EA-93CD-B06AB9B12F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$1.ResourceNamePolicy = FileFormatDefault
+	EndGlobalSection
+EndGlobal
