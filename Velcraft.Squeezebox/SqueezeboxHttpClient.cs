@@ -34,12 +34,12 @@ namespace Velcraft.Squeezebox
 			return JsonConvert.DeserializeObject<ResponseModel<PlayerStatusModel>> (json).Result;
 		}
 
-		public PlayersResultModel GetPlayers(int offset, int limit)
+		public PlayerResultsPageModel GetPlayers(int offset, int limit)
 		{
 			var request = new SlimJsonRpcRequest (string.Empty, new object[]{ "players", offset, limit });
 			var json = PostJsonRpcRequest (request);
 
-			return JsonConvert.DeserializeObject<ResponseModel<PlayersResultModel>> (json).Result;
+			return JsonConvert.DeserializeObject<ResponseModel<PlayerResultsPageModel>> (json).Result;
 		}
 
 		public void PressPlayerButton(string playerId, Button button)

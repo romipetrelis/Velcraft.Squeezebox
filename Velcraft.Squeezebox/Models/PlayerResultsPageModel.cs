@@ -2,7 +2,7 @@
 
 namespace Velcraft.Squeezebox.Models
 {
-	public class PlayersResultModel
+	public class PlayerResultsPageModel
 	{
 		[JsonProperty("players_loop")]
 		public PlayerModel[] Players {get;set;}

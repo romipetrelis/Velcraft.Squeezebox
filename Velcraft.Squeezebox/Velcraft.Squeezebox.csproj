@@ -38,7 +38,6 @@
     <Compile Include="Models\Enums.cs" />
     <Compile Include="Models\GenreModel.cs" />
     <Compile Include="Models\PlayerModel.cs" />
-    <Compile Include="Models\PlayersResultModel.cs" />
     <Compile Include="Models\ResponseModel.cs" />
     <Compile Include="Models\TrackModel.cs" />
     <Compile Include="Models\TrackTag.cs" />
@@ -56,6 +55,7 @@
     <Compile Include="Models\GenreResultsPageModel.cs" />
     <Compile Include="Models\PlayerStatusModel.cs" />
     <Compile Include="Models\TrackResultsPageModel.cs" />
+    <Compile Include="Models\PlayerResultsPageModel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>

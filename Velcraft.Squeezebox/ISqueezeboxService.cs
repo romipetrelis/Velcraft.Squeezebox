@@ -20,7 +20,7 @@ namespace Velcraft.Squeezebox
 
 		AddToPlayerQueueResultModel AddToPlayerQueue (string playerId, string genreId=null, string artistId=null, string albumId=null, string trackId=null, string playlistId=null);
 
-		PlayersResultModel GetPlayers (int offset, int limit);
+		PlayerResultsPageModel GetPlayers (int offset, int limit);
 
 		GenreResultsPageModel GetGenres(int offset, int limit);
 
